@@ -86,7 +86,7 @@ subscriptions _ =
 
 logo : String -> Html Msg
 logo file =
-  div [ class "max-w-sm mx-auto" ] [img [ src <| "assets/images/" ++ file ] [] ]
+  div [ class "max-w-xs mx-auto" ] [img [ src <| "assets/images/" ++ file ] [] ]
 
 
 view : Model -> Html Msg
@@ -102,7 +102,7 @@ view model =
         , label [ class "result",  for "name" ] [ text model.greetedWith ]
         , div [ class "input-box", id "input" ]
             [ input
-                [ class "shadow-inner rounded px-4 py-2 mr-2"
+                [ class "shadow-inner rounded px-4 py-2 mr-2 text-black"
                 , id "name"
                 , type_ "text"
                 , autocomplete False
