@@ -1,0 +1,28 @@
+{
+  "name": "{{.ProjectName}}",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "concurrently \"npm:webpack:prod\" \"npm:tailwind\"",
+    "dev": "concurrently \"npm:webpack:dev\" \"npm:tailwind:watch\"",
+    "webpack:dev": "webpack --config ./webpack.config.js --mode=development --watch",
+    "webpack:prod": "webpack --config ./webpack.config.js --mode=production",
+    "tailwind:dev": "npx tailwindcss -i ./src/assets/main.css -o ./dist/main.css --watch",
+    "tailwind:prod": "npx tailwindcss -i ./src/assets/main.css -o ./dist/main.css",
+    "copy:assets": "cp -R ./src/assets/ ./dist/assets"
+  },
+  "keywords": [],
+  "author": "{{.AuthorName}}",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.19.3",
+    "babel-loader": "^8.2.5",
+    "concurrently": "^7.4.0",
+    "elm-hot-webpack-loader": "^1.1.8",
+    "elm-webpack-loader": "^8.0.0",
+    "tailwindcss": "3.x",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
