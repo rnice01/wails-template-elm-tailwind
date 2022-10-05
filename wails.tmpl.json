@@ -3,7 +3,7 @@
   "outputfilename": "{{.BinaryName}}",
   "frontend:install": "npm install",
   "frontend:build": "npm run build",
-  "frontend:dev": "",
+  "frontend:dev": "npm run copy:assets",
   "frontend:dev:watcher": "npm run dev",
   "author": {
     "name": "{{.AuthorName}}",
