@@ -1,5 +1,5 @@
 # README
-Create Wails apps with the power :msucle: of Elm and the beauty :sparkles: of Tailwind CSS!
+Create Wails apps with the power :muscle: of Elm and the beauty :sparkles: of Tailwind CSS!
 
 <br />
 
