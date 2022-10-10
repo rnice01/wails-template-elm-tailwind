@@ -1,7 +1,7 @@
 {
   "name": "Wails Elm TailwindCSS Template",
-  "shortname": "wails-elm-tailwind-template",
+  "shortname": "wails-template-elm-tailwind",
   "author": "Rob Nice",
   "description": "Wails + Elm + TailwindCSS Template!",
-  "helpurl": "https://github.com/rnice01/wails-elm-tailwind/blob/main/README.md"
+  "helpurl": "https://github.com/rnice01/wails-template-elm-tailwind/blob/main/README.md"
 }

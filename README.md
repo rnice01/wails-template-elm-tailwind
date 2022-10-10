@@ -8,7 +8,7 @@ Create Wails apps with the power :msucle: of Elm and the beauty :sparkles: of Ta
 Run the following command:
 
 ```
-wails init -n wails-hello-world -t https://github.com/rnice01/wails-elm-tailwind-template
+wails init -n wails-hello-world -t https://github.com/rnice01/wails-template-elm-tailwind
 ```
 
 ## About
